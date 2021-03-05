@@ -1,0 +1,5 @@
+#!1 __WebmailJunk__
+if spamtest {
+  fileinto "Junk E-mail";
+  stop;
+}

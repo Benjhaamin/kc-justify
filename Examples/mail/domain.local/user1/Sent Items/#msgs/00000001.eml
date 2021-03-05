@@ -1,0 +1,28 @@
+Date: Thu, 4 Mar 2021 19:09:26 -0500
+Subject: Email 1
+X-Mailer: Kerio Connect 9.3.1/Kerio Connect Client
+X-User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101
+	Firefox/85.0
+Message-ID: <4290230881-12521@domain.local>
+From: User1@domain.local
+To: User2 <user2@domain.local>
+X-Priority: 3
+Importance: Normal
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-kYwUxupwHU8le9fVLcIl"
+
+--=-kYwUxupwHU8le9fVLcIl
+Content-Type: text/plain; charset="utf-8"
+
+
+Sending an Email from User 1 to User 2.
+
+
+
+-User1
+
+--=-kYwUxupwHU8le9fVLcIl
+Content-Type: text/html; charset="utf-8"
+
+<html><head></head><body><div>Sending an Email from User 1 to User 2.<br></div><div><br></div><div>-User1<br></div></body></html>
+--=-kYwUxupwHU8le9fVLcIl--

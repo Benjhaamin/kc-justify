@@ -1,0 +1,11 @@
+Subject: 
+Date: Thu, 4 Mar 2021 19:07:48 -0500
+Content-Type: text/vcard; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//kerio.com/Contacts//NONSGML v1.0//EN
+EMAIL;TYPE=PREF,WORK:User1@domain.local
+X-JABBER:User1@domain.local
+END:VCARD
