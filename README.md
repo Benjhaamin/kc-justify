@@ -29,13 +29,13 @@ Mailstore
  2) Match the folder found to the folder within the mailstore.
  3) Build a dictionary reference of all folders that need to be merged.
  4) Loop through the folders and perform the following logic to each: 
- 1) Copy eml from source folder to target folder, and rename on collision using cp with the --backup flag; we will likely want to retain metadata with the -p flag as well
- 1.1) Ideally, using the special case of --backup and --force will create a backup of the source instead of the target conflict.
- 1.2) Using the --suffix flag we can set the backup to a unique identifier. 
- 2) Once copy is completed, check target folder to find the "newest" eml file name using "ls -A1 | tail -1"
- 3) Assign the name to a variable.
- 4) Loop through each folder and find eml backups with the unique identifier
- 5) For Each, rename backup to variable name incremented (in base16) + 1
+ a) Copy eml from source folder to target folder, and rename on collision using cp with the --backup flag; we will likely want to retain metadata with the -p flag as well
+ a.1) Ideally, using the special case of --backup and --force will create a backup of the source instead of the target conflict.
+ a.2) Using the --suffix flag we can set the backup to a unique identifier. 
+ b) Once copy is completed, check target folder to find the "newest" eml file name using "ls -A1 | tail -1"
+ c) Assign the name to a variable.
+ d) Loop through each folder and find eml backups with the unique identifier
+ e) For Each, rename backup to variable name incremented (in base16) + 1
 
 # Considerations: 
  The Mail Server will need to be stopped to prevent any new emls from arriving during the script run.
